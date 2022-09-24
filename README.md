@@ -19,13 +19,21 @@ Heuristic function takes the following strategies into consideration
     a. Corners and edges are the most important cells
     b. Cells that lead to the opponent taking corners and edges shouldn't ba taken
     Weight matrix:
+    
          4, -3,  2,  2,  2,  2, -3,  4
+         
         -3, -4, -1, -1, -1, -1, -4, -3
+        
          2, -1,  1,  0,  0,  1, -1,  2
+         
          2, -1,  0,  1,  1,  0, -1,  2
+         
          2, -1,  0,  1,  1,  0, -1,  2
+         
          2, -1,  1,  0,  0,  1, -1,  2
+         
         -3, -4, -1, -1, -1, -1, -4, -3
+        
          4, -3,  2,  2,  2,  2, -3,  4
     points = sum of points of agent - sum of points of opponent
     Weight matrix is from:
